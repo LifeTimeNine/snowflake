@@ -1,0 +1,21 @@
+{
+    "name": "lifetime/snowflake",
+    "description": "Algorithm for distributed generation of unique IDS",
+    "type": "library",
+    "authors": [
+        {
+            "name": "LifetimeNine",
+            "email": "2390904403@qq.com"
+        }
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "snowflake\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    }
+}
